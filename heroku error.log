@@ -1,0 +1,21 @@
+Heroku client internal error.
+No such file or directory - C:\\Users\\Geoff\ Burrell\\AppData\\Local/heroku/heroku-cli.exe login
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:167:in `exec'
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:167:in `run'
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:15:in `try_takeover'
+c:/Program Files (x86)/Heroku/lib/heroku/cli.rb:25:in `start'
+c:/Program Files (x86)/Heroku/bin/heroku:29:in `<main>'
+Heroku client internal error.
+No such file or directory - C:\\Users\\Geoff\ Burrell\\AppData\\Local/heroku/heroku-cli.exe login
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:167:in `exec'
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:167:in `run'
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:15:in `try_takeover'
+c:/Program Files (x86)/Heroku/lib/heroku/cli.rb:25:in `start'
+c:/Program Files (x86)/Heroku/bin/heroku:29:in `<main>'
+Heroku client internal error.
+No such file or directory - C:\\Users\\Geoff\ Burrell\\AppData\\Local/heroku/heroku-cli.exe login
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:167:in `exec'
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:167:in `run'
+c:/Program Files (x86)/Heroku/lib/heroku/jsplugin.rb:15:in `try_takeover'
+c:/Program Files (x86)/Heroku/lib/heroku/cli.rb:25:in `start'
+c:/Program Files (x86)/Heroku/bin/heroku:29:in `<main>'
