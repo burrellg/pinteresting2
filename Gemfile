@@ -12,6 +12,7 @@ group :doc do
 end
 gem 'coffee-script-source', '1.10.0'
 gem 'bootstrap-sass'
+gem 'devise', '~> 3.5.2'
 
 group :development, :test do
 	gem 'sqlite3'
