@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 2.0'
 group :doc do
   gem 'sdoc', '~> 0.4.0'
 end
-gem 'coffee-script-source', '1.10.0'
+gem 'coffee-script-source', '~> 1.8.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.2'
 
