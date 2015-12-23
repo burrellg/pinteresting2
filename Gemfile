@@ -14,6 +14,7 @@ gem 'coffee-script-source', '~> 1.8.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.2'
 gem 'paperclip', '~> 4.2'
+gem 'aws-sdk', '~> 1.16.1'
 
 group :development, :test do
 	gem 'sqlite3'
