@@ -44,11 +44,13 @@ class PinsController < ApplicationController
     end
 
     def correct_user
-      @pin = current_user.pins.find_by(id: params[:id])
-      redirect_to pins_path, notice: "Not authorized to perform this action. Please sign in as this user to proceed." if @pin.nil?
+      if current_user
+        @pin = current_user.pins.find_by(id: params[:id])
+        redirect_to pins_path, notice: "Not authorized to perform this action. Please sign in as this user to proceed." if @pin.nil?
+      end
     end
 
     def pin_params
-      params.require(:pin).permit(:description)
+      params.require(:pin).permit(:description, :image)
     end
 end
