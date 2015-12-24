@@ -2,7 +2,7 @@
 	
 	<% if user_signed_in? %>
 		<h1>Sub Hunter</h1>
-		# do something
+		<%= link_to "Pins Page", pins_path, class: "btn btn-primary" %>
 	<% else %>
 		<h1>Welcome to Sub Hunter!</h1>
 		<p>
