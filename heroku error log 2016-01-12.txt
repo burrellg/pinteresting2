@@ -1,0 +1,105 @@
+GeoffRuby@BEAST ~/Desktop/pinteresting (master)
+$ heroku logs --tail
+Your version of git is 1.9.4.. Which has serious security vulnerabilities.
+More information here: https://blog.heroku.com/archives/2014/12/23/update_your_git_clients_on_windows_and_os_x
+2016-01-13T03:13:26.090607+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:20:in `block in call'
+2016-01-13T03:13:26.090614+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/engine.rb:514:in `call'
+2016-01-13T03:13:26.090636+00:00 app[web.1]:
+2016-01-13T03:13:26.090631+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/application.rb:144:in `call'
+2016-01-13T03:13:26.090633+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2016-01-13T03:13:26.090605+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2016-01-13T03:13:26.090607+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:38:in `call_app'
+2016-01-13T03:13:26.090609+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2016-01-13T03:13:26.090612+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/runtime.rb:17:in `call'
+2016-01-13T03:13:26.090608+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2016-01-13T03:13:26.090634+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2016-01-13T03:13:26.000214+00:00 app[web.1]:
+2016-01-13T03:13:26.000219+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2016-01-13T03:13:26.000219+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:26:in `tagged'
+2016-01-13T03:13:26.000220+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2016-01-13T03:13:26.000227+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2016-01-13T03:13:26.000228+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2016-01-13T03:13:26.090609+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/tagged_logging.rb:68:in `tagged'
+2016-01-13T03:13:26.090636+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2016-01-13T03:13:26.000216+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/fonts/glyphicons-halflings-regular.woff"):
+2016-01-13T03:13:26.090610+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:20:in `call'
+2016-01-13T03:13:26.090610+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2016-01-13T03:13:26.090612+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+2016-01-13T03:13:26.090636+00:00 app[web.1]:
+2016-01-13T03:13:26.000217+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2016-01-13T03:13:26.090613+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/static.rb:84:in `call'
+2016-01-13T03:13:26.000217+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2016-01-13T03:13:26.000224+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/static.rb:84:in `call'
+2016-01-13T03:13:26.000225+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/engine.rb:514:in `call'
+2016-01-13T03:13:26.089084+00:00 app[web.1]: Started GET "/fonts/glyphicons-halflings-regular.ttf" for 66.222.220.254 at 2016-01-13 03:13:26 +0000
+2016-01-13T03:13:26.000222+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/methodoverride.rb:21:in `call'
+2016-01-13T03:13:26.000224+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/sendfile.rb:112:in `call'
+2016-01-13T03:13:26.000226+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/handler/webrick.rb:60:in `service'
+2016-01-13T03:13:26.000229+00:00 app[web.1]:
+2016-01-13T03:13:26.090611+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/methodoverride.rb:21:in `call'
+2016-01-13T03:13:26.000218+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:38:in `call_app'
+2016-01-13T03:13:26.000223+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/runtime.rb:17:in `call'
+2016-01-13T03:13:26.000223+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-4.1.8/lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+2016-01-13T03:13:26.000225+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/application.rb:144:in `call'
+2016-01-13T03:13:26.000226+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/lock.rb:17:in `call'
+2016-01-13T03:13:26.000226+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/content_length.rb:14:in `call'
+2016-01-13T03:13:26.000227+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2016-01-13T03:13:26.090613+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/sendfile.rb:112:in `call'
+2016-01-13T03:13:26.090633+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/content_length.rb:14:in `call'
+2016-01-13T03:13:26.090632+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/lock.rb:17:in `call'
+2016-01-13T03:13:26.090633+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.5.5/lib/rack/handler/webrick.rb:60:in `service'
+2016-01-13T03:13:26.000218+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:20:in `block in call'
+2016-01-13T03:13:26.000221+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-4.1.8/lib/rails/rack/logger.rb:20:in `call'
+2016-01-13T03:13:26.000221+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2016-01-13T03:13:26.076982+00:00 heroku[router]: at=info method=GET path="/fonts/glyphicons-halflings-regular.woff" host=gb-pinteresting.herokuapp.com request_id=50e80bca-09db-489a-b8c4-7e783e918b48 fwd="66.222.220.254" dyno=web.1 connect=0ms service=5ms status=404 bytes=1829
+2016-01-13T03:13:26.000228+00:00 app[web.1]:
+2016-01-13T03:13:26.147557+00:00 heroku[router]: at=info method=GET path="/fonts/glyphicons-halflings-regular.ttf" host=gb-pinteresting.herokuapp.com request_id=c57d4385-4ad5-4f6f-af5e-6fead4841776 fwd="66.222.220.254" dyno=web.1 connect=1ms service=4ms status=404 bytes=1829
+2016-01-13T03:13:33.995868+00:00 app[web.1]: Started DELETE "/users/sign_out" for 66.222.220.254 at 2016-01-13 03:13:33 +0000
+2016-01-13T03:13:34.154233+00:00 app[web.1]: Processing by PinsController#index as HTML
+2016-01-13T03:13:34.163916+00:00 app[web.1]:   Rendered pins/index.html.erb within layouts/application (7.8ms)
+2016-01-13T03:13:34.165283+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 1.8ms)
+2016-01-13T03:13:33.997704+00:00 app[web.1]: Processing by Devise::SessionsController#destroy as HTML
+2016-01-13T03:13:33.997730+00:00 app[web.1]:   Parameters: {"authenticity_token"=>"PrW8iqv3nzNHC6bsrzRk/tX34CFOmkJFT16w48YnJmM="}
+2016-01-13T03:13:34.029439+00:00 app[web.1]: Redirected to https://gb-pinteresting.herokuapp.com/
+2016-01-13T03:13:34.029554+00:00 app[web.1]: Completed 302 Found in 32ms (ActiveRecord: 28.2ms)
+2016-01-13T03:13:34.152489+00:00 app[web.1]: Started GET "/" for 66.222.220.254 at 2016-01-13 03:13:34 +0000
+2016-01-13T03:13:34.157246+00:00 app[web.1]:   Rendered pages/_home.html.erb (0.6ms)
+2016-01-13T03:13:34.164943+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.4ms)
+2016-01-13T03:13:34.098451+00:00 heroku[router]: at=info method=POST path="/users/sign_out" host=gb-pinteresting.herokuapp.com request_id=50303e9a-ad5b-42f1-935e-15a443802e98 fwd="66.222.220.254" dyno=web.1 connect=3ms service=45ms status=302 bytes=1032
+2016-01-13T03:13:34.241981+00:00 heroku[router]: at=info method=GET path="/" host=gb-pinteresting.herokuapp.com request_id=aa31103b-cbb6-4f7b-84ec-0210b7e1517a fwd="66.222.220.254" dyno=web.1 connect=8ms service=33ms status=200 bytes=3808
+2016-01-13T03:13:35.569352+00:00 heroku[router]: at=info method=GET path="/users/sign_up" host=gb-pinteresting.herokuapp.com request_id=be97253a-3bb4-4f27-8002-a1abf74b9e89 fwd="66.222.220.254" dyno=web.1 connect=0ms service=9ms status=500 bytes=1754
+2016-01-13T03:13:35.458896+00:00 heroku[router]: at=info method=GET path="/users/sign_up" host=gb-pinteresting.herokuapp.com request_id=beda8d07-5ca1-460a-9bf8-c765c600b39c fwd="66.222.220.254" dyno=web.1 connect=0ms service=9ms status=500 bytes=1754
+2016-01-13T03:13:35.391941+00:00 app[web.1]: Started GET "/users/sign_up" for 66.222.220.254 at 2016-01-13 03:13:35 +0000
+2016-01-13T03:13:35.396906+00:00 app[web.1]:   Rendered devise/registrations/new.html.erb within layouts/application (1.7ms)
+2016-01-13T03:13:35.397010+00:00 app[web.1]: Completed 500 Internal Server Error in 3ms
+2016-01-13T03:13:35.398418+00:00 app[web.1]:
+2016-01-13T03:13:35.398420+00:00 app[web.1]: ActionView::Template::Error (undefined method `name' for #<User:0x007f507c8119c8>):
+2016-01-13T03:13:35.398421+00:00 app[web.1]:     10:
+2016-01-13T03:13:35.398422+00:00 app[web.1]:     11:     <div class="form-group">
+2016-01-13T03:13:35.398422+00:00 app[web.1]:     12:       <%= f.label :name %>
+2016-01-13T03:13:35.398423+00:00 app[web.1]:     13:       <%= f.text_field :name, autofocus: true, class: "form-control" %>
+2016-01-13T03:13:35.398424+00:00 app[web.1]:     14:     </div>
+2016-01-13T03:13:35.398425+00:00 app[web.1]:     15:
+2016-01-13T03:13:35.398426+00:00 app[web.1]:     16:     <div class="form-group">
+2016-01-13T03:13:35.398428+00:00 app[web.1]:   app/views/devise/registrations/new.html.erb:13:in `block in _app_views_devise_registrations_new_html_erb___2026893068796622505_69992108813060'
+2016-01-13T03:13:35.398429+00:00 app[web.1]:   app/views/devise/registrations/new.html.erb:7:in `_app_views_devise_registrations_new_html_erb___2026893068796622505_69992108813060'
+2016-01-13T03:13:35.398429+00:00 app[web.1]:
+2016-01-13T03:13:35.398430+00:00 app[web.1]:
+2016-01-13T03:13:35.503124+00:00 app[web.1]: Started GET "/users/sign_up" for 66.222.220.254 at 2016-01-13 03:13:35 +0000
+2016-01-13T03:13:35.507134+00:00 app[web.1]:   Rendered devise/registrations/new.html.erb within layouts/application (1.3ms)
+2016-01-13T03:13:35.507215+00:00 app[web.1]: Completed 500 Internal Server Error in 3ms
+2016-01-13T03:13:35.508590+00:00 app[web.1]:     10:
+2016-01-13T03:13:35.508588+00:00 app[web.1]:
+2016-01-13T03:13:35.508589+00:00 app[web.1]: ActionView::Template::Error (undefined method `name' for #<User:0x007f507c89ac50>):
+2016-01-13T03:13:35.508590+00:00 app[web.1]:     11:     <div class="form-group">
+2016-01-13T03:13:35.508591+00:00 app[web.1]:     12:       <%= f.label :name %>
+2016-01-13T03:13:35.508593+00:00 app[web.1]:     15:
+2016-01-13T03:13:35.508592+00:00 app[web.1]:     14:     </div>
+2016-01-13T03:13:35.508593+00:00 app[web.1]:     16:     <div class="form-group">
+2016-01-13T03:13:35.508595+00:00 app[web.1]:   app/views/devise/registrations/new.html.erb:7:in `_app_views_devise_registrations_new_html_erb___2026893068796622505_69992108813060'
+2016-01-13T03:13:35.508596+00:00 app[web.1]:
+2016-01-13T03:13:35.508594+00:00 app[web.1]:   app/views/devise/registrations/new.html.erb:13:in `block in _app_views_devise_registrations_new_html_erb___2026893068796622505_69992108813060'
+2016-01-13T03:13:35.508596+00:00 app[web.1]:
+2016-01-13T03:13:35.508591+00:00 app[web.1]:     13:       <%= f.text_field :name, autofocus: true, class: "form-control" %>
+2016-01-13T03:13:35.393780+00:00 app[web.1]: Processing by Devise::RegistrationsController#new as HTML
+2016-01-13T03:13:35.504623+00:00 app[web.1]: Processing by Devise::RegistrationsController#new as HTML
